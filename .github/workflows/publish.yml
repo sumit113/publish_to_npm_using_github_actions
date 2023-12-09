@@ -1,9 +1,6 @@
 name: "publish npm"
 on:
   push:
-    # paths:
-    #   - '**'
-    #   - '!.github/workflows/**'
     branches:
       - main
 
