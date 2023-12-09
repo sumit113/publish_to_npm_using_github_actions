@@ -1,6 +1,11 @@
 name: "publish npm"
-
-on: push
+on:
+  push:
+    # paths:
+    #   - '**'
+    #   - '!.github/workflows/**'
+    branches:
+      - main
 
 jobs:
     publish:
